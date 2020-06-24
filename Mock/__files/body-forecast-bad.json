@@ -6,7 +6,7 @@
         {
             "dt": 1592568000,
             "main": {
-                "temp": 46.93,
+                "temp": -15,
                 "feels_like": 13.64,
                 "temp_min": 17.93,
                 "temp_max": 18.91,
@@ -19,9 +19,9 @@
             "weather": [
                 {
                     "id": 803,
-                    "main": "Clouds",
-                    "description": "облачно с прояснениями",
-                    "icon": "04d"
+                    "main": "Snow",
+                    "description": "снег",
+                    "icon": "13d"
                 }
             ],
             "clouds": {
