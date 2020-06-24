@@ -35,6 +35,10 @@
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Credentials": "true",
             "Access-Control-Allow-Methods": "GET, POST"
+        },
+        "chunkedDribbleDelay": {
+            "numberOfChunks": 5,
+            "totalDuration": 2000
         }
     },
     "uuid": "1bb38ea2-1a82-3168-9623-a85821babc79"
