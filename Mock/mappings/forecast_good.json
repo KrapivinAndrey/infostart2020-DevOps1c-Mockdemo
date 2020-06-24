@@ -1,5 +1,7 @@
 {
     "id": "1bb38ea2-1a82-3168-9623-a85821babc79",
+    "scenarioName": "Weather",
+    "requiredScenarioState": "Started",
     "request": {
         "method": "GET",
         "urlPath": "/data/2.5/forecast",
@@ -23,7 +25,7 @@
     },
     "response": {
         "status": 200,
-        "bodyFileName": "body-forecast.json",
+        "bodyFileName": "body-forecast-good.json",
         "headers": {
             "Server": "openresty",
             "Date": "Fri, 19 Jun 2020 09:25:59 GMT",

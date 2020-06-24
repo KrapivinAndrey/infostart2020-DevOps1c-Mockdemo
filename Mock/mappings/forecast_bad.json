@@ -1,0 +1,41 @@
+{
+    "id": "96f92ae9-9791-4ee2-bb88-0656b941f2c1",
+    "scenarioName": "Weather",
+    "requiredScenarioState": "bad",
+    "request": {
+        "method": "GET",
+        "urlPath": "/data/2.5/forecast",
+        "queryParameters": {
+            "q": {
+                "matches": "(.*),ru"
+            },
+            "mode": {
+                "equalTo": "JSON"
+            },
+            "units": {
+                "equalTo": "metric"
+            },
+            "lang": {
+                "equalTo": "ru"
+            },
+            "APPID": {
+                "matches": "(.*)"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "body-forecast_bad.json",
+        "headers": {
+            "Server": "openresty",
+            "Date": "Fri, 19 Jun 2020 09:25:59 GMT",
+            "Content-Type": "application/json; charset=utf-8",
+            "Connection": "keep-alive",
+            "X-Cache-Key": "/data/2.5/forecast?APPID=907e7930b2d2cf9c59516b5479d4629e&lang=ru&mode=JSON&q=%d0%95%d0%ba%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%bd%d0%b1%d1%83%d1%80%d0%b3,ru&units=metric",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Methods": "GET, POST"
+        }
+    },
+    "uuid": "96f92ae9-9791-4ee2-bb88-0656b941f2c1"
+}
