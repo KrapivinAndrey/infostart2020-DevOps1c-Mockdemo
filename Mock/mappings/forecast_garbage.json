@@ -1,0 +1,30 @@
+{
+    "id": "482c2dc6-8c13-41d2-b1a4-9858cc038b4f",
+    "scenarioName": "Garbage",
+    "requiredScenarioState": "test_garbage",
+    "request": {
+        "method": "GET",
+        "urlPath": "/data/2.5/forecast",
+        "queryParameters": {
+            "q": {
+                "matches": "(.*),ru"
+            },
+            "mode": {
+                "equalTo": "JSON"
+            },
+            "units": {
+                "equalTo": "metric"
+            },
+            "lang": {
+                "equalTo": "ru"
+            },
+            "APPID": {
+                "matches": "(.*)"
+            }
+        }
+    },
+    "response": {
+        "fault": "RANDOM_DATA_THEN_CLOSE"
+    },
+    "uuid": "482c2dc6-8c13-41d2-b1a4-9858cc038b4f"
+}
